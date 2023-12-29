@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>有馬研　試薬リスト(K)
+  </title>
+  <link rel="stylesheet" href="styleA.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input">
+      <h1>K</h1>
+      <a href="indexA.html">A</a>
+      <a href="indexB.html">B</a>
+      <a href="indexC.html">C</a>
+      <a href="indexD.html">D</a>
+      <a href="indexE.html">E</a>
+      <a href="indexF.html">F</a>
+      <a href="indexG.html">G</a>
+      <a href="indexH.html">H</a>
+      <a href="indexI.html">I</a>
+      <a href="indexJ.html">J</a>
+      <a href="indexK.html">K</a>
+      <a href="indexL.html">L</a>
+      <a href="indexM.html">M</a>
+      <a href="indexN.html">N</a>
+      <a href="indexO.html">O</a>
+      <a href="indexP.html">P</a>
+      <a href="indexQ.html">Q</a>
+      <a href="indexR.html">R</a>
+      <a href="indexS.html">S</a>
+      <a href="indexT.html">T</a>
+      <a href="indexU.html">U</a>
+      <a href="indexV.html">V</a>
+      <a href="indexW.html">W</a>
+      <a href="indexX.html">X</a>
+      <a href="indexY.html">Y</a>
+      <a href="indexZ.html">Z</a>
+      <h2>
+        Kから始まる試薬（Reagent name starting with K）
+        <button id="purge">選択消去</button>
+      </h2>
+      <form id="add-form">
+        <p>　英語（Eng.）<input id="eng" type="text"></p>
+        <p>日本語（Jap.）<input id="jap" type="text"></p>
+        <p>会社（Company）<input id="com" type="text"></p>
+        <p>内容量（Quantity）<input id="qlt" type="text"></p>
+        <p>数量（Bottle-num.）<input id="num" type="text"></p>
+        <p>購入日（Date）<input id="dat" type="text"></p>
+        <p>保管場所（Storage）<input id="str" type="text"></p>
+        <p>登録者（Registered-per.）<input id="reg" type="text"></p>
+        <button>追加</button>
+      </form>
+      <table class="titleHead">
+        <thead>
+          <tr>
+            <th class="english">　英語<br>（Eng.）</th>
+            <th class="japanese">　日本語<br>（Jap.）</th>
+            <th class="company">　会社<br>（Company）</th>
+            <th class="quantity">　内容量<br>（Quant.）</th>
+            <th class="number">　数量<br>（Bottles）</th>
+            <th class="date">　購入日<br>（Date）</th>
+            <th class="storage">　保管場所<br>（Storage）</th>
+            <th class="registered">　登録者<br>（Regist.-per.）</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <table class="contents">
+      <tbody id="reagentKs">
+        <tr>
+          <th class="english">Sort</td>
+        </tr>
+        <!-- <tr>
+          <td class="english">
+            <input type="checkbox">
+            <span>Acetone</span>
+            <button>x</button>
+          </td>
+          <td class="japanese">アセトン</td>
+          <td class="company">Wako</td>
+          <td class="quantity">3 L</td>
+          <td class="number">2</td>
+          <td class="date">2019以前</td>
+          <td class="storage">D2</td>
+          <td class="registered">有馬</td>
+        </tr>
+        <tr>
+          <td class="english">
+            <input type="checkbox">
+            <span>Acetyl Coenzyme A, sodium Salt</span>
+            <button>x</button>
+          </td>
+          <td class="japanese">アセチルコエンザイムA,ナトリウム塩</td>
+          <td class="company">Sigma</td>
+          <td class="quantity">25 mg</td>
+          <td class="number">1</td>
+          <td class="date">2012.0928</td>
+          <td class="storage">F2</td>
+          <td class="registered">有馬</td>
+       </tr>
+        <tr>
+          <td class="english">
+            <input type="checkbox">
+            <span>β-Alanine benzyl ester p-toluenesulfonate salt</span>
+            <button>x</button>
+          </td>
+          <td class="japanese">β-アラニンベンジルエステル　p-トルエンスルホン酸塩</td>
+          <td class="company">Sigma</td>
+          <td class="quantity">5 g</td>
+          <td class="number">1</td>
+          <td class="date">2019以前</td>
+          <td class="storage">F2</td>
+          <td class="registered">有馬</td>
+       </tr> -->
+      </tbody>
+    </table>
+  </div>
+  <script src="mainK.js"></script>
+</body>
+</html>
+
+<!-- 12/12　#2終了　#3途中だけど、スタイリングを次は最初から -->
+<!-- 12/14　#6終了　もう少しスタイルを作りこみたい　上のパーツを移動しない仕組み、ヘッドとコンテンツのテキストを全て左揃えもしくは中央 -->
+<!-- 12/17　大体のスタイルを整理終了。javaScript突入（1.45くらいまで）。まずは英語（Eng）のスタイル飲みに焦点を当てて２～３動画進める -->
+<!-- 12.18　#8を終了したけど、#7からは見た方が良い。#9の補足動画の前後またはそのカテゴリを包括する動画の復習を推奨 -->
+<!-- 12.19　#9終わらず。#7からは見た方が良い。#9の補足動画の前後またはそのカテゴリを包括する動画の復習を推奨。２次元に設定するにはどうするかも要考案 -->
+<!-- 12.20　#9終わらず。tdのclass属性はどうする？ classの動画から？ -->
+<!-- 12.21　#9終わらず。trまで新しく作り、それをquerySelectorでtbodyにぶっこむ手前 -->
+<!-- 12.22　JS入門・データ構造#2配列を作る方法　を復習。　この辺りのテクニックが今回には必要そう -->
+<!-- 12.25　初めてのJS・#5データから表を生成してみよう　を次回231226 も次回 -->

@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 16px auto 0;
+}
+
+.input {
+  width: 960px;
+  position: fixed;
+  background: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 8px;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+h2 {
+  margin: 0 0 8px;
+  background: rgb(235, 233, 233);
+  padding: 8px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  border: 2px solid lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+form p {
+  margin: 0;
+  width: 200px;
+  padding: 4px;
+}
+
+form p input {
+  width: 180px;
+}
+
+.titleHead {
+  padding: 8px 0;
+  border-bottom: 2px solid gray;
+  font-size: 12px;
+}
+
+.contents {
+  padding-top: 328px;
+  font-size: 12px;
+}
+
+td {
+  margin-top: 16px;
+}
+
+td input:checked + span {
+  color: lightgray;
+  text-decoration: line-through;
+}
+
+td input {
+  margin-right: 8px;
+}
+
+th {
+  text-align: left;
+}
+
+.english {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-right: 16px;
+}
+
+.contents th {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+span {
+  width: 200px;
+}
+
+.japanese {
+  width: 224px;
+}
+
+.company {
+  width: 80px;
+}
+
+.quantity {
+  width: 80px;
+}
+
+.number {
+  width: 80px;
+}
+
+.date {
+  width: 80px;
+}
+
+.storage {
+  width: 80px;
+}
+
+.registered {
+  width: 120px;
+}
+
+/* 12/14　#6終了　もう少しスタイルを作りこみたい */
